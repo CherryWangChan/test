@@ -1,0 +1,8 @@
+var gulp=require('gulp');
+var browserSync=require('browser-sync').create();
+var sass=require('gulp-ruby-sass');
+var reload=browserSync.reload;
+gulp.task('default',['sass'],function(){
+
+})
+
